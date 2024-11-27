@@ -50,6 +50,24 @@
         "demoLink": "https://demo5.example.com",
         "codeLink": "https://github.com/yourusername/project5",
         "image": "/images/projects/project5.jpg"
+    },
+    {
+        "title": "Project 6",
+        "description": "Description here",
+        "technologies": ["React", "Node.js", "MongoDB"],
+        "tags": ["react", "javascript", "nodejs", "mongodb", "docker", "kubernetes", "aws", "terraform", "nextjs", "typescript", "tailwindcss"],
+        "demoLink": "https://demo6.example.com",
+        "codeLink": "https://github.com/yourusername/project6",
+        "image": "/images/projects/project6.jpg"
+    },
+    {
+        "title": "Project 7",
+        "description": "Description here",
+        "technologies": ["React", "Node.js", "MongoDB"],
+        "tags": ["react", "javascript", "nodejs", "mongodb", "docker", "kubernetes", "aws", "terraform", "nextjs", "typescript", "tailwindcss"],
+        "demoLink": "https://demo7.example.com",
+        "codeLink": "https://github.com/yourusername/project7",
+        "image": "/images/projects/project7.jpg"
     }
   ]
 }
