@@ -1,0 +1,55 @@
+{
+  "projects": [
+    {
+      "title": "Project 1",
+      "description": "A detailed description of the project..A detailed description of the project..A detailed description of the project..A detailed description of the project..A detailed description of the project..A detailed description of the project..A detailed description of the project..A detailed description of the project..A detailed description of the project..A detailed description of the project..A detailed description of the project..A detailed description of the project..A detailed description of the project..A detailed description of the project..A detailed description of the project..A detailed description of the project..A detailed description of the project..A detailed description of the project...",
+      "technologies": ["React", "Node.js"],
+      "tags": ["react", "javascript", "nodejs"],
+      "demoLink": "https://demo1.example.com",
+      "codeLink": "https://github.com/yourusername/project1",
+      "image": "/images/projects/project1.jpg",
+      "images": [
+        "/images/projects/project1-1.jpg",
+        "/images/projects/project1-2.jpg",
+        "/images/projects/project1-3.jpg"
+      ],
+      "video": "/videos/project1-demo.mp4"
+    },
+    {
+      "title": "Project 2",
+      "description": "Description here",
+      "technologies": ["Vue.js", "Express"],
+      "tags": ["vue", "javascript", "express"],
+      "demoLink": "https://demo2.example.com",
+      "codeLink": "https://github.com/yourusername/project2",
+      "image": "/images/projects/project2.jpg"
+    },
+    {
+      "title": "Project 3",
+      "description": "Description here",
+      "technologies": ["React", "Node.js", "MongoDB"],
+      "tags": ["react", "javascript", "nodejs", "mongodb", "docker", "kubernetes", "aws", "terraform", "nextjs", "typescript", "tailwindcss", "python", "flask", "sql", "postgresql", "mysql", "nosql", "ai", "ml", "openai", "langchain", "llm", "prompt engineering"],
+      "demoLink": "https://demo3.example.com",
+      "codeLink": "https://github.com/yourusername/project3",
+      "image": "/images/projects/project3.jpg"
+    },
+    {
+      "title": "Project 4",
+      "description": "Description here",
+      "technologies": ["Vue.js", "Express", "PostgreSQL"],
+      "tags": ["vue", "javascript", "express", "postgresql", "nodejs", "mongodb", "docker", "kubernetes", "aws", "terraform"],
+      "demoLink": "https://demo4.example.com",
+      "codeLink": "https://github.com/yourusername/project4",
+      "image": "/images/projects/project4.jpg"
+    },
+    {
+        "title": "Project 5",
+        "description": "Description here",
+        "technologies": ["React", "Node.js", "MongoDB"],
+        "tags": ["react", "javascript", "nodejs", "mongodb", "docker", "kubernetes", "aws", "terraform", "nextjs", "typescript", "tailwindcss"],
+        "demoLink": "https://demo5.example.com",
+        "codeLink": "https://github.com/yourusername/project5",
+        "image": "/images/projects/project5.jpg"
+    }
+  ]
+}
