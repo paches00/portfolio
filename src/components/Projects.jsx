@@ -1,9 +1,17 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+import { faArrowUpRightFromSquare, faDownload} from '@fortawesome/free-solid-svg-icons';
 import projectsData from '../data/projects.json';
 import ProjectModal from './ProjectModal';
+
+const shuffleArray = (array) => {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+};
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -26,17 +34,17 @@ const Projects = () => {
     setSelectedTags(updatedTags);
 
     const filtered = projectsData.projects.filter(project =>
-      updatedTags.every(tag => project.tags.includes(tag))
+      (project.tags && updatedTags.every(tag => project.tags.includes(tag))) || updatedTags.length === 0
     );
 
-    setFilteredProjects(updatedTags.length ? filtered : projectsData.projects);
+    setFilteredProjects(filtered);
   };
 
   return (
     <div className="projects-page">
       <h1>Projects</h1>
       <div className="tags-container">
-        {Array.from(new Set(projectsData.projects.flatMap(project => project.tags))).map(tag => (
+        {shuffleArray(Array.from(new Set(projectsData.projects.flatMap(project => project.tags)))).map(tag => (
           <button
             key={tag}
             className={`tag ${selectedTags.includes(tag) ? 'active' : ''}`}
@@ -69,12 +77,21 @@ const Projects = () => {
                 ))}
               </div>
               <div className="project-links">
-                <a href={project.demoLink} target="_blank" rel="noopener noreferrer">
-                  Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-                </a>
-                <a href={project.codeLink} target="_blank" rel="noopener noreferrer">
-                  Code <FontAwesomeIcon icon={faGithub} />
-                </a>
+                {project.demoLink && (
+                  <a href={project.demoLink} target="_blank" rel="noopener noreferrer">
+                    Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+                  </a>
+                )}
+                {project.codeLink && (
+                  <a href={project.codeLink} target="_blank" rel="noopener noreferrer">
+                    Code <FontAwesomeIcon icon={faGithub} />
+                  </a>
+                )}
+                {project.pdfLink && (
+                  <a href={project.pdfLink} target="_blank" rel="noopener noreferrer">
+                    PDF <FontAwesomeIcon icon={faDownload} />
+                  </a>
+                )}
               </div>
             </div>
           </div>

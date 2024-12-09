@@ -4,7 +4,8 @@ import {
   faChevronLeft, 
   faChevronRight, 
   faArrowLeft,
-  faArrowUpRightFromSquare
+  faArrowUpRightFromSquare,
+  faDownload
 } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
@@ -14,10 +15,10 @@ const ProjectModal = ({ project, onClose }) => {
   
   if (!project) return null;
 
-  // Combine images and video into a single media array
+  // Combine images and videos into a single media array
   const mediaItems = [
     ...(project.images || []),
-    ...(project.video ? [project.video] : [])
+    ...(project.videos || []),
   ];
 
   const hasMedia = mediaItems.length > 0;
@@ -46,12 +47,21 @@ const ProjectModal = ({ project, onClose }) => {
           <div className="modal-header-content">
             <h2 className="modal-title">{project.title}</h2>
             <div className="project-actions">
-              <a href={project.demoLink} target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-              </a>
-              <a href={project.codeLink} target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon icon={faGithub} />
-              </a>
+              {project.demoLink && (
+                <a href={project.demoLink} target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+                </a>
+              )}
+              {project.codeLink && (
+                <a href={project.codeLink} target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faGithub} />
+                </a>
+              )}
+              {project.pdfLink && (
+                <a href={project.pdfLink} target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faDownload} />
+                </a>
+              )}
             </div>
           </div>
         </div>
@@ -95,6 +105,15 @@ const ProjectModal = ({ project, onClose }) => {
                 </button>
               )}
             </div>
+          </div>
+
+          <div className="modal-section">
+            <h3>Technologies</h3>
+            <div className="modal-tags">
+                {project.technologies.map((tech, i) => (
+                  <span key={i} className="modal-tag">{tech}</span>
+                ))}
+              </div>
           </div>
 
           <div className="modal-section">

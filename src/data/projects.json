@@ -1,73 +1,115 @@
 {
   "projects": [
     {
-      "title": "Project 1",
-      "description": "A detailed description of the project..A detailed description of the project..A detailed description of the project..A detailed description of the project..A detailed description of the project..A detailed description of the project..A detailed description of the project..A detailed description of the project..A detailed description of the project..A detailed description of the project..A detailed description of the project..A detailed description of the project..A detailed description of the project..A detailed description of the project..A detailed description of the project..A detailed description of the project..A detailed description of the project..A detailed description of the project...",
-      "technologies": ["React", "Node.js"],
-      "tags": ["react", "javascript", "nodejs"],
-      "demoLink": "https://demo1.example.com",
-      "codeLink": "https://github.com/yourusername/project1",
-      "image": "/images/projects/project1.jpg",
+      "title": "GAME: GrAspable Media Entertainment",
+      "description": "This research explores the development of a Tangible User Interface (TUI) designed for gaming purposes. GAME (GrAspable Media Entertainment) is an innovative project that enables users to physically interact with digital gaming elements, bridging the gap between the physical and virtual worlds. This is achieved through the integration of multiple technologies, including a motion capture system (Optitrack), a short-throw projector (Optoma UHD35STx), and an agent-based simulation software (GAMA). GAME supports interactive gameplay (e.g., Player vs. Player, Player vs. AI), offering a more immersive and versatile gaming experience than conventional screen-based implementations. Furthermore, GAME leverages blockchain technology, specifically the Ripple protocol (i.e., XRPL), to facilitate gameplay actions such as store progress checkpoints, secure in-game transactions, and track player scores. The addition of the blockchain component allows easy game customization, and enhances the overall gaming experience. In conclusion, the combination of tangible user interfaces with blockchain technology can pave the way for future developments in important fields such as education, training, and entertainment where novel interaction methods are paramount.",
+      "technologies": ["ROS", "GAMA", "Python", "Bash"],
+      "tags": ["TUI", "Research", "Robotics", "Blockchain", "HCI", "OS"],
+      "demoLink": "",
+      "codeLink": "https://github.com/IERoboticsAILab/GAME",
+      "image": "/projects/GAME.gif",
       "images": [
-        "/images/projects/project1-1.jpg",
-        "/images/projects/project1-2.jpg",
-        "/images/projects/project1-3.jpg"
+        "/projects/system.png",
+        "/projects/system2.png",
+        "/projects/umh.png"
       ],
-      "video": "/videos/project1-demo.mp4"
+      "videos": [
+        "/projects/game1.mp4",
+        "/projects/game2.mp4"
+      ],
+      "pdfLink": "/projects/GAME__GrAspable_Median_Entertainment_Abstract_.pdf"
     },
     {
-      "title": "Project 2",
-      "description": "Description here",
-      "technologies": ["Vue.js", "Express"],
-      "tags": ["vue", "javascript", "express"],
-      "demoLink": "https://demo2.example.com",
-      "codeLink": "https://github.com/yourusername/project2",
-      "image": "/images/projects/project2.jpg"
+      "title": "Reinforcement Learning in Cryptocurrency Trading: An Investigation of Effective Strategies",
+      "description": "This research paper explores the application of Deep Reinforcement Learning (DRL) to cryptocurrency trading, seeking to evaluate its effectiveness compared to traditional machine learning and algorithmic trading techniques. The study centers on the volatile cryptocurrency markets and the advanced capabilities of machine learning technologies, offering a comprehensive comparison of different trading strategies. Specifically, the focus is on understanding how DRL can enhance trading algorithms to better adapt and perform in the dynamically changing and often unpredictable market environments characteristic of cryptocurrency trading. This investigation leverages theoretical frameworks and simulation models rather than methodical implementations, focusing on conceptual advancements and theoretical validation of DRL strategies fine-tuned to the high-stakes cryptocurrency financial sector.",
+      "technologies": ["Python", "TensorFlow", "Pandas", "PyTorch"],
+      "tags": ["AI", "Reinforcement Learning", "Data Science", "Blockchain", "Research"],
+      "image": "/projects/capstone.png",
+      "pdfLink": "/projects/capstone.pdf"
     },
     {
-      "title": "Project 3",
-      "description": "Description here",
-      "technologies": ["React", "Node.js", "MongoDB"],
-      "tags": ["react", "javascript", "nodejs", "mongodb", "docker", "kubernetes", "aws", "terraform", "nextjs", "typescript", "tailwindcss", "python", "flask", "sql", "postgresql", "mysql", "nosql", "ai", "ml", "openai", "langchain", "llm", "prompt engineering"],
-      "demoLink": "https://demo3.example.com",
-      "codeLink": "https://github.com/yourusername/project3",
-      "image": "/images/projects/project3.jpg"
+      "title": "Insurance Automation",
+      "description": "Computer vision model to extract data from hand-filled car insurance forms and developed a dashboard for generating reports.",
+      "technologies": ["Python", "OpenCV", "Pandas"],
+      "tags": ["AI", "Computer Vision", "Machine Learning", "Transformers", "Applications", "Web"],
+      "pdfLink": "/projects/insurance.pdf",
+      "codeLink": "https://github.com/paches00/insurance-automation",
+      "image": "/projects/insurance.png",
+      "images": [
+        "/projects/insurance2.png",
+        "/projects/insurance1.png",
+        "/projects/insurance3.png"
+      ]
     },
     {
-      "title": "Project 4",
-      "description": "Description here",
-      "technologies": ["Vue.js", "Express", "PostgreSQL"],
-      "tags": ["vue", "javascript", "express", "postgresql", "nodejs", "mongodb", "docker", "kubernetes", "aws", "terraform"],
-      "demoLink": "https://demo4.example.com",
-      "codeLink": "https://github.com/yourusername/project4",
-      "image": "/images/projects/project4.jpg"
+      "title": "Bookworms",
+      "description": "Advanced book recommender system that provides personalized book recommendations based on the user's reading history and preferences. The system will use a dataset of books and their corresponding reviews from Good Books to generate recommendations for users.",
+      "technologies": ["Python", "Pandas", "Transformers", "Flask", "PyTorch", "SciKit-Learn", "Docker", "MongoDB"],
+      "tags": ["AI", "Machine Learning", "Data Science", "Web", "Applications", "DevOps", "Research"],
+      "codeLink": "https://github.com/thehitchhikersguideto/bookworms",
+      "pdfLink": "/projects/reco.pdf",
+      "image": "/projects/books.png"
     },
     {
-        "title": "Project 5",
-        "description": "Description here",
-        "technologies": ["React", "Node.js", "MongoDB"],
-        "tags": ["react", "javascript", "nodejs", "mongodb", "docker", "kubernetes", "aws", "terraform", "nextjs", "typescript", "tailwindcss"],
-        "demoLink": "https://demo5.example.com",
-        "codeLink": "https://github.com/yourusername/project5",
-        "image": "/images/projects/project5.jpg"
+      "title": "ROSBot Autonomous System",
+      "description": "",
+      "technologies": [],
+      "tags": ["Empty"]
     },
     {
-        "title": "Project 6",
-        "description": "Description here",
-        "technologies": ["React", "Node.js", "MongoDB"],
-        "tags": ["react", "javascript", "nodejs", "mongodb", "docker", "kubernetes", "aws", "terraform", "nextjs", "typescript", "tailwindcss"],
-        "demoLink": "https://demo6.example.com",
-        "codeLink": "https://github.com/yourusername/project6",
-        "image": "/images/projects/project6.jpg"
+      "title": "OptiTrack ROS Communication",
+      "description": "ROS package that allows for data communication between OptiTrack System (Motive software), ROS, and UDP",
+      "technologies": ["ROS", "Bash", "Linux"],
+      "tags": ["Robotics", "OS", "Networking", "Tools", "Research"],
+      "codeLink": "https://github.com/IERoboticsAILab/optitrack_ros_communication",
+      "image": "/projects/optitrack.png"
     },
     {
-        "title": "Project 7",
-        "description": "Description here",
-        "technologies": ["React", "Node.js", "MongoDB"],
-        "tags": ["react", "javascript", "nodejs", "mongodb", "docker", "kubernetes", "aws", "terraform", "nextjs", "typescript", "tailwindcss"],
-        "demoLink": "https://demo7.example.com",
-        "codeLink": "https://github.com/yourusername/project7",
-        "image": "/images/projects/project7.jpg"
+      "title": "Line-following Robot",
+      "description": "First place in competition line-following robot built with an arduino, bread board, light sensors, and basic hardware.",
+      "technologies": ["Arduino", "Circuits", "C#"],
+      "tags": ["Robotics", "Electronics", "Hardware"],
+      "pdfLink": "/projects/line.pdf",
+      "image": "/projects/line.gif",
+      "images": [
+        "/projects/line1.png",
+        "/projects/line2.png"
+      ],
+      "videos": [
+          "/projects/line.mp4"
+      ]
+    },
+    {
+      "title": "IE Robotics & AI Lab Network/System Configuration",
+      "description": "",
+      "technologies": [],
+      "tags": ["Tools"],
+      "image": "",
+      "images": [
+
+      ]
+    },
+    {
+      "title": "LDAP/NFS Configuration",
+      "description": "Scripts for configuring LDAP and NFS on Unix clients, downloading required packages, configuring client network, and more functionality created for IE University Robotics & AI Lab infrastructure.",
+      "technologies": ["Bash", "Linux"],
+      "tags": ["Networking", "OS", "Scripting", "System Administration", "Tools"],
+      "codeLink": "https://github.com/IERoboticsAILab/scripts",
+      "image": "/projects/ldap.png"
+    },
+    {
+      "title": "Football Team  Database",
+      "description": "Full database design and implementation for a football team with backend, frontend, and deployment for management.",
+      "technologies": ["HTML", "PHP", "SQL"],
+      "tags": ["Web", "Applications"],
+      "codeLink": "https://github.com/paches00/Football-Team-Database",
+      "image": "/projects/football1.png",
+      "images": [
+        "/projects/football1.png"
+      ],
+      "videos": [
+        "/projects/football.mp4"
+      ]
     }
   ]
 }
