@@ -5,14 +5,6 @@ import { faArrowUpRightFromSquare, faDownload} from '@fortawesome/free-solid-svg
 import projectsData from '../data/projects.json';
 import ProjectModal from './ProjectModal';
 
-const shuffleArray = (array) => {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-  return array;
-};
-
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
   const [selectedTags, setSelectedTags] = useState([]);
@@ -44,7 +36,7 @@ const Projects = () => {
     <div className="projects-page">
       <h1>Projects</h1>
       <div className="tags-container">
-        {shuffleArray(Array.from(new Set(projectsData.projects.flatMap(project => project.tags)))).map(tag => (
+        {Array.from(new Set(projectsData.projects.flatMap(project => project.tags))).map(tag => (
           <button
             key={tag}
             className={`tag ${selectedTags.includes(tag) ? 'active' : ''}`}

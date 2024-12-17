@@ -4,8 +4,8 @@
       "title": "GAME: GrAspable Media Entertainment",
       "description": "This research explores the development of a Tangible User Interface (TUI) designed for gaming purposes. GAME (GrAspable Media Entertainment) is an innovative project that enables users to physically interact with digital gaming elements, bridging the gap between the physical and virtual worlds. This is achieved through the integration of multiple technologies, including a motion capture system (Optitrack), a short-throw projector (Optoma UHD35STx), and an agent-based simulation software (GAMA). GAME supports interactive gameplay (e.g., Player vs. Player, Player vs. AI), offering a more immersive and versatile gaming experience than conventional screen-based implementations. Furthermore, GAME leverages blockchain technology, specifically the Ripple protocol (i.e., XRPL), to facilitate gameplay actions such as store progress checkpoints, secure in-game transactions, and track player scores. The addition of the blockchain component allows easy game customization, and enhances the overall gaming experience. In conclusion, the combination of tangible user interfaces with blockchain technology can pave the way for future developments in important fields such as education, training, and entertainment where novel interaction methods are paramount.",
       "technologies": ["ROS", "GAMA", "Python", "Bash"],
-      "tags": ["TUI", "Research", "Robotics", "Blockchain", "HCI", "OS"],
-      "demoLink": "",
+      "tags": ["Research", "Robotics", "TUI", "Blockchain", "HCI", "OS"],
+      "demoLink": "https://youtu.be/kX-E2YUgZpQ?si=cKmfZztyvLBbUVaR&t=4413",
       "codeLink": "https://github.com/IERoboticsAILab/GAME",
       "image": "/projects/GAME.gif",
       "images": [
@@ -21,7 +21,7 @@
     },
     {
       "title": "Reinforcement Learning in Cryptocurrency Trading: An Investigation of Effective Strategies",
-      "description": "This research paper explores the application of Deep Reinforcement Learning (DRL) to cryptocurrency trading, seeking to evaluate its effectiveness compared to traditional machine learning and algorithmic trading techniques. The study centers on the volatile cryptocurrency markets and the advanced capabilities of machine learning technologies, offering a comprehensive comparison of different trading strategies. Specifically, the focus is on understanding how DRL can enhance trading algorithms to better adapt and perform in the dynamically changing and often unpredictable market environments characteristic of cryptocurrency trading. This investigation leverages theoretical frameworks and simulation models rather than methodical implementations, focusing on conceptual advancements and theoretical validation of DRL strategies fine-tuned to the high-stakes cryptocurrency financial sector.",
+      "description": "This research paper explores the application of Deep Reinforcement Learning (DRL) to cryptocurrency trading, seeking to evaluate its effectiveness compared to traditional machine learning and algorithmic trading techniques. The study centers on the volatile cryptocurrency markets and the advanced capabilities of machine learning technologies, offering a comprehensive comparison of different trading strategies. Specifically, the focus is on understanding how DRL can enhance trading algorithms to better adapt and perform in the dynamically changing and often unpredictable market environments characteristic of cryptocurrency trading. This investigation leverages theoretical frameworks and simulation models, focusing on conceptual advancements and theoretical validation of DRL strategies fine-tuned to the high-stakes cryptocurrency financial sector.",
       "technologies": ["Python", "TensorFlow", "Pandas", "PyTorch"],
       "tags": ["AI", "Reinforcement Learning", "Data Science", "Blockchain", "Research"],
       "image": "/projects/capstone.png",
@@ -29,7 +29,7 @@
     },
     {
       "title": "Insurance Automation",
-      "description": "Computer vision model to extract data from hand-filled car insurance forms and developed a dashboard for generating reports.",
+      "description": "Developed a computer vision model capable of accurately extracting data from hand-filled car insurance forms, improving efficiency and reducing manual data entry errors. Additionally, designed and implemented a user-friendly dashboard to visualize extracted data, generate comprehensive reports, and streamline insurance claim processing workflows. The solution enhanced operational productivity and provided valuable insights through automated report generation.",
       "technologies": ["Python", "OpenCV", "Pandas"],
       "tags": ["AI", "Computer Vision", "Machine Learning", "Transformers", "Applications", "Web"],
       "pdfLink": "/projects/insurance.pdf",
@@ -43,7 +43,7 @@
     },
     {
       "title": "Bookworms",
-      "description": "Advanced book recommender system that provides personalized book recommendations based on the user's reading history and preferences. The system will use a dataset of books and their corresponding reviews from Good Books to generate recommendations for users.",
+      "description": "Designed and implemented an advanced book recommendation system that delivers highly personalized suggestions based on users' reading history, preferences, and behavior. Leveraging a comprehensive dataset of books and their corresponding reviews from the Goodreads platform, the system employs robust algorithms to analyze user interactions and identify relevant reading material. This solution enhances user engagement by providing tailored recommendations, improving the overall reading experience and satisfaction.",
       "technologies": ["Python", "Pandas", "Transformers", "Flask", "PyTorch", "SciKit-Learn", "Docker", "MongoDB"],
       "tags": ["AI", "Machine Learning", "Data Science", "Web", "Applications", "DevOps", "Research"],
       "codeLink": "https://github.com/thehitchhikersguideto/bookworms",
@@ -51,22 +51,47 @@
       "image": "/projects/books.png"
     },
     {
-      "title": "ROSBot Autonomous System",
-      "description": "",
-      "technologies": [],
-      "tags": ["Empty"]
-    },
-    {
       "title": "OptiTrack ROS Communication",
-      "description": "ROS package that allows for data communication between OptiTrack System (Motive software), ROS, and UDP",
+      "description": "Developed a ROS package enabling seamless data communication between the OptiTrack System (Motive software), ROS, and UDP protocols. The package facilitates real-time transfer of motion capture data from the OptiTrack system to ROS-based applications via UDP, ensuring efficient and reliable data flow for robotics and motion tracking tasks. This solution enhances system integration, enabling accurate motion data utilization for robotics control, simulations, and analysis.",
       "technologies": ["ROS", "Bash", "Linux"],
       "tags": ["Robotics", "OS", "Networking", "Tools", "Research"],
       "codeLink": "https://github.com/IERoboticsAILab/optitrack_ros_communication",
       "image": "/projects/optitrack.png"
     },
     {
+      "title": "Rocket Landing Simulation",
+      "description": "Developed a simulation of a rocket landing using reinforcement learning within a custom-built environment in Python. The project involved designing and training an intelligent agent to autonomously control the rocket's descent and landing, optimizing for stability and precision. The custom environment was tailored to simulate realistic physics, including gravitational forces and thrust dynamics, enabling the agent to learn through trial-and-error interactions. This solution demonstrates the effective application of reinforcement learning in solving complex control problems and highlights its potential for real-world aerospace scenarios.",
+      "technologies": ["Python", "OpenAI Gym", "TensorFlow", "Python"],
+      "tags": ["AI", "Reinforcement Learning", "Research"],
+      "image": "/projects/rocket.gif",
+      "videos": [
+        "/projects/rocket.mp4"
+      ]
+    },
+    {
+      "title": "Railway Repair Model",
+      "description": "Developed a computer vision model for real-time detection and classification of railway defects using real-world image data. The model accurately identifies various types of defects, such as cracks, wear, and misalignments, enabling proactive maintenance and safety improvements. Leveraging advanced image processing techniques and deep learning algorithms, the solution ensures reliable performance in real-time environments. This system enhances railway infrastructure monitoring by reducing manual inspections, increasing efficiency, and improving operational safety.",
+      "technologies": ["Python", "OpenCV", "Pandas", "TensorFlow"],
+      "tags": ["AI", "Computer Vision", "Machine Learning", "Applications"],
+      "image": "/projects/train.jpg",
+      "images": [
+        "/projects/output.jpeg",
+        "/projects/output.png"
+      ]
+    },
+    {
+      "title": "ROSBot Autonomous Navigation",
+      "description": "Developed an autonomous navigation system for the ROSBot 2 Pro, leveraging lidar, sensors, a camera, and IMU devices to enable real-time navigation through a maze while effectively avoiding obstacles. The system integrates sensor fusion techniques to process data from multiple sources, ensuring precise localization, path planning, and obstacle detection. Using ROS (Robot Operating System) for control and coordination, the solution demonstrates robust autonomous behavior in dynamic environments, showcasing advanced robotics capabilities for real-world applications.",
+      "technologies": ["ROS", "Python", "C++", "OpenCV", "Bash"],
+      "tags": ["Robotics", "AI", "Hardware"],
+      "image": "/projects/rosbot.gif",
+      "videos": [
+        "/projects/rosbot.mp4"
+      ]
+    },
+    {
       "title": "Line-following Robot",
-      "description": "First place in competition line-following robot built with an arduino, bread board, light sensors, and basic hardware.",
+      "description": "Achieved first place in a line-following robot competition by designing and building a high-performance robot using Arduino, a breadboard, light sensors, and basic hardware components. The robot was engineered to detect and follow lines with precision through efficient sensor calibration and control logic. Optimized for speed and accuracy, the project demonstrated strong problem-solving and hardware integration skills, highlighting expertise in robotics, embedded systems, and real-time control applications.",
       "technologies": ["Arduino", "Circuits", "C#"],
       "tags": ["Robotics", "Electronics", "Hardware"],
       "pdfLink": "/projects/line.pdf",
@@ -80,18 +105,8 @@
       ]
     },
     {
-      "title": "IE Robotics & AI Lab Network/System Configuration",
-      "description": "",
-      "technologies": [],
-      "tags": ["Tools"],
-      "image": "",
-      "images": [
-
-      ]
-    },
-    {
       "title": "LDAP/NFS Configuration",
-      "description": "Scripts for configuring LDAP and NFS on Unix clients, downloading required packages, configuring client network, and more functionality created for IE University Robotics & AI Lab infrastructure.",
+      "description": "Developed a suite of automation scripts for configuring LDAP and NFS on Unix clients, streamlining the setup of user authentication and file sharing across systems. The scripts also include functionalities for downloading required packages, configuring client network settings, and optimizing system performance. Designed specifically for the IE University Robotics & AI Lab infrastructure, these tools ensure seamless integration, reduce manual configuration effort, and improve the lab's operational efficiency, enabling a scalable and reliable environment for research and development.",
       "technologies": ["Bash", "Linux"],
       "tags": ["Networking", "OS", "Scripting", "System Administration", "Tools"],
       "codeLink": "https://github.com/IERoboticsAILab/scripts",
@@ -99,7 +114,7 @@
     },
     {
       "title": "Football Team  Database",
-      "description": "Full database design and implementation for a football team with backend, frontend, and deployment for management.",
+      "description": "Designed and implemented a comprehensive database system for a football team, including backend development, frontend interface, and deployment for seamless management. The solution enables efficient data storage, retrieval, and management of players, staff, matches, and team performance metrics. The backend ensures robust functionality with optimized queries, while the frontend provides an intuitive user interface for easy access and interaction. Deployed the system to ensure scalability and reliability, enhancing team operations, performance tracking, and administrative workflows.",
       "technologies": ["HTML", "PHP", "SQL"],
       "tags": ["Web", "Applications"],
       "codeLink": "https://github.com/paches00/Football-Team-Database",
@@ -110,6 +125,14 @@
       "videos": [
         "/projects/football.mp4"
       ]
+    },
+    {
+      "title": "Personal Website",
+      "description": "You're already here!",
+      "technologies": ["HTML", "CSS", "JavaScript", "React"],
+      "tags": ["Web", "Applications"],
+      "codeLink": "https://github.com/paches00/portfolio/",
+      "image": "/projects/personal.png"
     }
   ]
 }
