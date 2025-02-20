@@ -71,7 +71,7 @@ const Projects = () => {
               <div className="project-links">
                 {project.demoLink && (
                   <a href={project.demoLink} target="_blank" rel="noopener noreferrer">
-                    Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+                    Link <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
                   </a>
                 )}
                 {project.codeLink && (
